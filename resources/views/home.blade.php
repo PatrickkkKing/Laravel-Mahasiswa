@@ -16,6 +16,9 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+                <div>
+                <a class="btn btn-sm float-end" href="{{url('mahasiswa/')}}"><input type="submit" value="OK" class="btn btn-success"></input></a>
+                </div>
             </div>
         </div>
     </div>
